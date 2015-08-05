@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Simple program</title>
+	</head>
+	<body>
+	<button id="button">clickme</button>
+	<button id="clear">clear</button>
+	<div id="results"></div>
+
+
+	<script src="js/jquery.js"></script>
+	<script>
+	$(function(){
+		$("#button").click(function(){
+			$("#results").prepend(Date()+"<br/>");
+		})
+		$("#clear").click(function(){
+			$("#results").html("");
+		})
+	})
+	</script>
+	</body>
+</html>
