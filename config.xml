@@ -8,6 +8,6 @@
         </author>
         <content src="index.html" />
         <access origin="*" />
-	<preference name="Fullscreen" value="true" />
+	<preference name="Fullscreen" value="false" />
 	<preference name="Orientation" value="portrait" />
 </widget>
