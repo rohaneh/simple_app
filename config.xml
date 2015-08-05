@@ -1,0 +1,13 @@
+<widget id="com.example.hello" version="0.0.1">
+        <name>ICD10 Sample</name>
+        <description>
+            This is just a simple description
+        </description>
+        <author email="rohane.hamilton@gmail.com" href="http://phonegap.com">
+            ROHANE HAMILTON
+        </author>
+        <content src="index.html" />
+        <access origin="*" />
+	<preference name="Fullscreen" value="true" />
+	<preference name="Orientation" value="portrait" />
+</widget>
